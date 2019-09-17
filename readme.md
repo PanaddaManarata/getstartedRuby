@@ -1,7 +1,8 @@
 # Getting to know Ruby 
 
 ### Installation 
-working with linux, unbuntu 
+
+working with linux, unbuntu [(instal)](https://www.ruby-lang.org/en/documentation/installation/)
 
 check installation 
 ```

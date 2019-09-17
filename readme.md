@@ -16,10 +16,10 @@ $ sudo apt-get install ruby-full
 ### Read a file 
 followed this [article](https://www.codecademy.com/articles/writing-to-file-ruby) from codeacademy
 
-- make file: text_list.txt and test.rb
-- write list in text_list.txt file
+- make file: test_list.txt and test.rb
+- write list in test_list.txt file
 
-- open text.rb file 
+- open test.rb file 
 ```
 File.open("text_list.txt").each do |line|
     puts line
@@ -33,3 +33,19 @@ ruby test.rb
 ```
 
 => will print list from txt file 
+
+### Write to a file 
+
+add code to test.rb
+
+```
+File.open("test_list.txt", "a") do |line|
+    line.puts "\r" + "go with the flow"
+end 
+```
+
+terminal 
+
+```
+ruby test.rb
+```
